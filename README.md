@@ -1,5 +1,17 @@
 # debug
 
+## Example
+```php
+// Displays the trace to the function call location
+debug();
+
+// Displays the contents of a single variable
+debug($_POST);
+
+// Displays the contents of multiple variables
+debug($_GET, $_POST, ...);
+```
+
 ## Connection
 
 ### Nginx:
